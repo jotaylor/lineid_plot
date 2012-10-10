@@ -16,7 +16,11 @@ https://github.com/phn/lineid_plot
 There are instructions on the page on how to use this handy module that labels
 lines on a spectrum. The nice part is you just have to make two lists, one with
 your line locations and the label you want for each respective element in the
-list. 
+list. Then you just plot it using the linid_plot.plot_line_ids command that 
+has 4 arguments: xdata list/array, ydata list/array, line wavelengths list, line 
+labels list. You can also still use pylab or matplotlib on the same plot- for
+instance, I created x and y labels using pylab. The example on the websites above
+use matplotlib, while I use pylab.
 
 I have also included the script (lines.py) I used to generate my spectrum 
 with labeled lines as well as the 3 FITS files of the spectra used in the script.
@@ -30,4 +34,5 @@ Let the labeling begin.
 
 Also, I should note that I am not the creator of this module, only a happy user.
 See the github page for author information.
+
 -Jo Taylor
