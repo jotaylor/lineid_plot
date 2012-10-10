@@ -20,7 +20,9 @@ list. Then you just plot it using the linid_plot.plot_line_ids command that
 has 4 arguments: xdata list/array, ydata list/array, line wavelengths list, line 
 labels list. You can also still use pylab or matplotlib on the same plot- for
 instance, I created x and y labels using pylab. The example on the websites above
-use matplotlib, while I use pylab.
+use matplotlib, while I use pylab. You can also still interact with the plot as 
+usual but zooming in, panning, etc. The lines will move with the plot but the 
+labels may go off the screen if you move too far.
 
 I have also included the script (lines.py) I used to generate my spectrum 
 with labeled lines as well as the 3 FITS files of the spectra used in the script.
